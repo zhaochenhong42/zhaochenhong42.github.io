@@ -76,3 +76,29 @@ footer {
     border-radius: 50%; /* Makes the image round */
     object-fit: cover; /* Ensures the image covers the area properly */
 }
+
+.author-tag {
+    display: inline-block;
+    padding: 2px 8px;
+    margin-left: 6px;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.first-author {
+    background-color: #dcfce7;
+    color: #166534;
+}
+
+.co-first-author {
+    background-color: #dbeafe;
+    color: #1e40af;
+}
+
+.co-author {
+    background-color: #e5e7eb;
+    color: #4b5563;
+}
